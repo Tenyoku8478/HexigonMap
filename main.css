@@ -1,0 +1,89 @@
+.board {
+  overflow: scroll;
+}
+
+.row {
+  width: 1080px;
+}
+
+.row:nth-of-type(even) {
+  padding-left: 54px;
+}
+
+.row:last-of-type {
+  margin-bottom: 33px;
+}
+
+.hex:before {
+  display: block;
+  content: " ";
+  width: 0; height: 0;
+  border-bottom: 30px solid var(--fill-color);
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+  position: absolute;
+  top: -30px;
+}
+
+.hex {
+  --fill-color: lightgray;
+  --border-filter: url(filter.svg#border_gray);
+  margin-top: 33px;
+  width: 104px;
+  height: 60px;
+  background-color: var(--fill-color);
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  filter: var(--border-filter);
+}
+
+.hex:after {
+  display: block;
+  content: "";
+  width: 0;
+  position: absolute;
+  bottom: -30px;
+  border-top: 30px solid var(--fill-color);
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+}
+
+.hex:hover {
+  filter: var(--border-filter) brightness(120%);
+}
+
+/* begin fill colors */
+.hex.green {
+  --fill-color: #6C6;
+}
+.hex.red {
+  --fill-color: #D0104C;
+}
+
+/* end fill colors */
+
+/* begin border colors */
+.hex.green-border {
+  --border-filter: url(filter.svg#border_green);
+}
+.hex.red-border {
+  --border-filter: url(filter.svg#border_red);
+}
+.hex.blue-border {
+  --border-filter: url(filter.svg#border_blue);
+}
+.hex.orange-border {
+  --border-filter: url(filter.svg#border_orange);
+}
+
+/* end border colors */
+
+.hex.skip1 {
+  margin-left: 108px;
+}
+
+.hex.skip2 {
+  margin-left: 216px;
+}
