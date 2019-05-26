@@ -3,10 +3,10 @@
 }
 
 .row {
-  width: 1080px;
+  width: 3250px;
 }
 
-.row:nth-of-type(even) {
+.row:nth-of-type(odd) {
   padding-left: 54px;
 }
 
@@ -86,4 +86,12 @@
 
 .hex.skip2 {
   margin-left: 216px;
+}
+
+.hex.skip-n {
+  margin-left: calc(var(--num-skip, 0) * 108px);
+}
+
+.hex.invisible {
+  visibility: hidden;
 }
