@@ -19,7 +19,11 @@ padding: 0; }
   top: 20px;
   left: 20px;
   z-index: 100;
+  padding-right: 10px;
+  padding-left: 10px;
   cursor: pointer;
+  background: #224E6A;
+  opacity: 0.9;
 }
 
 .sidebar {
@@ -32,14 +36,17 @@ padding: 0; }
   transition: all 0.15s ease-out 0;
   width: 11rem;
   padding: 1.5em;
-  background: #19C4BC;
+  background: #224E6A;
   z-index: 100;
+  opacity: 0.9;
 }
 
 .sidebar ul {
   list-style: none;
   margin: 0;
   padding: 0; 
+  color: #FFC5BF;
+  margin-left: 5px;
 }
 
 .sidebar li {
@@ -50,6 +57,7 @@ padding: 0; }
   color: #fff;
   font-size: 17px;
   margin: 0;
+  margin-left: 10px;
   margin-bottom: 16px;
   cursor: pointer;
   text-decoration: none;
@@ -57,7 +65,7 @@ padding: 0; }
 }
 
 .sidebar a:hover {
-  color: rgba(0, 0, 0, 0.61);
+  color: #FEB2AD;
 }
 
 #slide:checked + .container .sidebar {
@@ -75,6 +83,7 @@ padding: 0; }
 #info {
   height: 40%;
   width: 100%;
+  color: #FFFFFF;
   overflow: auto;
 }
 
@@ -135,7 +144,7 @@ padding: 0; }
 }
 
 .hex:hover, .hex.hover {
-  filter: var(--border-filter) brightness(120%);
+  filter: var(--border-filter) brightness(140%);
 }
 
 /* begin fill colors */
