@@ -30,11 +30,11 @@ padding: 0; }
   position: fixed;
   top: 0px;
   bottom: 0px;
-  left: -230px;
+  left: -250px;
   -webkit-transition: all 0.15s ease-out 0;
   -moz-transition: all 0.15s ease-out 0;
   transition: all 0.15s ease-out 0;
-  width: 11rem;
+  width: 202px;
   padding: 1.5em;
   background: #224E6A;
   z-index: 100;
@@ -73,7 +73,7 @@ padding: 0; }
 }
 
 #slide:checked + .container .toggle {
-  left: 230px;
+  left: 250px;
 }
 
 #slide {
