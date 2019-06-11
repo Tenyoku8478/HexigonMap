@@ -1,5 +1,4 @@
-const hexigons = [];
-const hexids = [];
+const hexigons = {};
 
 
 function moveTo(id, animate = false) {
@@ -20,13 +19,59 @@ function moveTo(id, animate = false) {
   }, animate ? 500 : 0);
 }
 
+function updateInfo(hex) {
+  $('#info').html('');
+  let id_text = '編號：';
+  let type_text = '';
+  let boss_text = '';
+  let suggest_text = '';
+  let skill_text = '';
+  let property_text = '屬性：';
+  let reward_text = '獎勵：'
+  
+  let total_text = '';
+  
+  const id = hex['id']
+  const type = hex['type']
+  
+  id_text += (id + 1);
+  type_text += type;
+  $('#info').append($('<p>').text(id_text + '　' + type_text));
+  
+  if (type == '戰鬥') {
+    const boss = hex['boss'];
+    const skill = hex['skill'];
+    boss_text += boss;
+    skill_text += skill.join(' ');
+    $('#info').append($('<p>').text(boss_text));
+    $('#info').append($('<p>').text(skill_text));
+  } else if (type == '委派') {
+    const suggest = hex['suggest'];
+    const property = hex['property'];
+    suggest_text += suggest.join(' ');
+    property_text += property.join(' ');
+    $('#info').append($('<p>').text(suggest_text));
+    $('#info').append($('<p>').text(property_text));
+  }
+  
+  const reward = hex['reward']
+  const reward_type = hex['rewardtype'];
+  if (reward_type != '無') {
+    reward_text += reward.join(' ');
+    $('#info').append($('<p>').text(reward_text));
+  }
+  
+}
+
 function draw() {
     let row = 0;
     let $row = null;
     let start = undefined;
     
     let prev = 0;
-    hexigons.forEach(function(hex) {
+    Object.keys(hexigons).forEach(function(key) {
+        const hex = hexigons[key];
+        
         //格子編號、格子種類、格子攻破否
         const id = parseInt(hex['id']);
         const type = hex['type'];
@@ -79,28 +124,27 @@ function draw() {
           const around = [];
           if (Math.floor(id / 30) % 2 == 1) {
             if (id % 30 > 0) {
-              around.push(hexids.indexOf(id - 1));
+              around.push((id - 1) in hexigons ? (id - 1) : -1);
             }
             if (id % 30 < 29) {
-              around.push(hexids.indexOf(id + 1));
-              around.push(hexids.indexOf(id + 30));
-              around.push(hexids.indexOf(id + 31));
+              around.push((id + 1) in hexigons ? (id + 1) : -1);
+              around.push((id + 30) in hexigons ? (id + 30) : -1);
+              around.push((id + 31) in hexigons ? (id + 31) : -1);
             }
-            around.push(hexids.indexOf(id - 30));
-            around.push(hexids.indexOf(id - 29));
+            around.push((id - 30) in hexigons ? (id - 30) : -1);
+            around.push((id - 29) in hexigons ? (id - 29) : -1);
           } else {
             if (id % 30 > 0) {
-              around.push(hexids.indexOf(id - 31));
-              around.push(hexids.indexOf(id - 1));
-              around.push(hexids.indexOf(id + 29));
+              around.push((id - 31) in hexigons ? (id - 31) : -1);
+              around.push((id - 1) in hexigons ? (id - 1) : -1) ;
+              around.push((id + 29) in hexigons ? (id + 29) : -1);
             }
             if (id % 30 < 29) {
-              around.push(hexids.indexOf(id + 1));
+              around.push((id + 1) in hexigons ? (id + 1) : -1);
             }
-            around.push(hexids.indexOf(id - 30));
-            around.push(hexids.indexOf(id + 30));
+            around.push((id - 30) in hexigons ? (id - 30) : -1);
+            around.push((id + 30) in hexigons ? (id + 30) : -1);
           }
-          
           let fight = false;
           for (let i = 0; i < around.length; i++) {
             let a = around[i]
@@ -115,20 +159,72 @@ function draw() {
           }
         }
         
+        //sidebar
         if (type == '起始點') {
           start = $hex.attr('id');
-          $('#bar起始點').append($('<li>').append($('<a>').text('起始點').attr('href', '#').bind('click', () => {
+          $('#bar起終點').append($('<li>').append($('<a>').text('起始點' + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+          }).bind('mouseover', () => {
+            $hex.addClass('hover');
+          }).bind('mouseout', () => {
+            $hex.removeClass('hover');
           })));
         } else if (type == '戰鬥' && hex['boss'] == '偽神') {
-          $('#bar偽神相關').append($('<li>').append($('<a>').text(hex['boss']).attr('href', '#').bind('click', () => {
+          $('#bar起終點').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+          }).bind('mouseover', () => {
+            $hex.addClass('hover');
+          }).bind('mouseout', () => {
+            $hex.removeClass('hover');
           })));
-        } else if (r_type == '巫女之魂' || r_type == '削弱偽神' || r_type == '幻境據點') {
-          $('#bar偽神相關').append($('<li>').append($('<a>').text(hex['boss']).attr('href', '#').bind('click', () => {
+        } else if (r_type == '削弱偽神') {
+          $('#bar祭憶之城').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+          }).bind('mouseover', () => {
+            $hex.addClass('hover');
+          }).bind('mouseout', () => {
+            $hex.removeClass('hover');
+          })));
+        } else if (r_type == '巫女之魂') {
+          $('#bar巫女').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
+            moveTo($hex.attr('id'), animate=true);
+          }).bind('mouseover', () => {
+            $hex.addClass('hover');
+          }).bind('mouseout', () => {
+            $hex.removeClass('hover');
+          })));
+        } else if (r_type == '幻境據點') {
+          $('#bar幻境據點').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
+            moveTo($hex.attr('id'), animate=true);
+          }).bind('mouseover', () => {
+            $hex.addClass('hover');
+          }).bind('mouseout', () => {
+            $hex.removeClass('hover');
+          })));
+        } else if (r_type == '解鎖') {
+          $('#bar解鎖').append($('<li>').append($('<a>').text(hex['reward'][0].substr(2) + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
+            moveTo($hex.attr('id'), animate=true);
+          }).bind('mouseover', () => {
+            $hex.addClass('hover');
+          }).bind('mouseout', () => {
+            $hex.removeClass('hover');
+          })));
+        } else if (r_type == '祝福') {
+          $('#bar祝福').append($('<li>').append($('<a>').text(hex['reward'][0] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
+            moveTo($hex.attr('id'), animate=true);
+          }).bind('mouseover', () => {
+            $hex.addClass('hover');
+          }).bind('mouseout', () => {
+            $hex.removeClass('hover');
           })));
         }
+        
+        $hex.bind('click', () => {
+          updateInfo(hex);
+          if (!$('#slide').prop("checked") == true) {
+            $('#slide').trigger('click');
+          }
+        });
         
         $row.append($hex).append('\n').show();
         prev = id;
@@ -141,8 +237,7 @@ function draw() {
 $(function() {
   $.getJSON('hexigon.json', function(data) {
       data.forEach(function(e) {
-          hexigons.push(e);
-          hexids.push(e['id']);
+          hexigons[e['id']] = e;
       });
       draw();
   });
