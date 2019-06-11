@@ -80,7 +80,7 @@ function draw() {
         
         //格子換行
         while (id + 1 > row * 30) {
-            prev = row * 30;
+            prev = row * 30 - 1;
             row += 1;
             $row = $('<div>').addClass('row');
             $('body').append($row).show();

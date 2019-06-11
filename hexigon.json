@@ -4246,7 +4246,7 @@
    "boss": "吸血姬",
    "suggest": [],
    "skill": [
-      "冷妹"
+      "冷漠"
    ],
    "property": [],
    "reward": [
@@ -4813,9 +4813,9 @@
    "skill": [],
    "property": [],
    "reward": [
-      "未知"
+      "荒的祝福"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "祝福",
    "pass": "X"
 },
  {
@@ -7405,7 +7405,10 @@
       "骨女"
    ],
    "skill": [],
-   "property": [],
+   "property": [
+      "火",
+      "風"
+   ],
    "reward": [
       "攻擊5%"
    ],
@@ -7600,7 +7603,10 @@
       "童女"
    ],
    "skill": [],
-   "property": [],
+   "property": [
+      "火",
+      "風"
+   ],
    "reward": [
       "100積分"
    ],
@@ -7703,7 +7709,10 @@
       "椒圖"
    ],
    "skill": [],
-   "property": [],
+   "property": [
+      "火",
+      "水"
+   ],
    "reward": [
       "100積分"
    ],
@@ -8374,9 +8383,9 @@
    ],
    "property": [],
    "reward": [
-      "解鎖輝夜姬"
+      "輝夜姬的祝福"
    ],
-   "rewardtype": "解鎖",
+   "rewardtype": "祝福",
    "pass": "X"
 },
  {
@@ -8580,7 +8589,10 @@
       "白童子"
    ],
    "skill": [],
-   "property": [],
+   "property": [
+      "風",
+      "水"
+   ],
    "reward": [
       "生命90"
    ],
@@ -8716,7 +8728,10 @@
       "白童子"
    ],
    "skill": [],
-   "property": [],
+   "property": [
+      "水",
+      "雷"
+   ],
    "reward": [
       "防禦8"
    ],
@@ -8883,7 +8898,10 @@
       "骨女"
    ],
    "skill": [],
-   "property": [],
+   "property": [
+      "火",
+      "水"
+   ],
    "reward": [
       "100積分"
    ],
