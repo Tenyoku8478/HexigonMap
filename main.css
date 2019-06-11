@@ -140,13 +140,13 @@ padding: 0; }
 
 /* begin fill colors */
 .hex.pass {
-  --fill-color: #fff8ea;
+  --fill-color: #FFE8B7;
 }
 .hex.fight {
-  --fill-color: #ffe09e;
+  --fill-color: #FFCCB4;
 }
 .hex.notpass {
-  --fill-color: #5E3D50;
+  --fill-color: #E38A74;
 }
 
 /* end fill colors */
