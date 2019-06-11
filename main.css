@@ -89,7 +89,7 @@ padding: 0; }
   width: 3300px;
 }
 
-.row:nth-of-type(odd) {
+.row:nth-of-type(even) {
   padding-left: 54px;
 }
 

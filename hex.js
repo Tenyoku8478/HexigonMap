@@ -79,7 +79,7 @@ function draw() {
         const pass = hex['pass'];
         
         //格子換行
-        while (id >= row * 30) {
+        while (id + 1 > row * 30) {
             prev = row * 30;
             row += 1;
             $row = $('<div>').addClass('row');
@@ -90,7 +90,7 @@ function draw() {
         var $hex = $('<div>').addClass('hex').attr('id', 'hex' + (id + 1));
         
         //戰鬥格子顯示boss，其餘顯示種類
-        var txt = (id + 1);
+        let txt = (id + 1);
         if (type == '戰鬥') {
             txt += '<br/>' + hex['boss'];
         } else {
@@ -122,7 +122,7 @@ function draw() {
           $hex.addClass('pass');
         } else {
           const around = [];
-          if (Math.floor(id / 30) % 2 == 1) {
+          if (Math.floor(id / 30) % 2 == 0) {
             if (id % 30 > 0) {
               around.push((id - 1) in hexigons ? (id - 1) : -1);
             }
@@ -164,6 +164,7 @@ function draw() {
           start = $hex.attr('id');
           $('#bar起終點').append($('<li>').append($('<a>').text('起始點' + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+            updateInfo(hex);
           }).bind('mouseover', () => {
             $hex.addClass('hover');
           }).bind('mouseout', () => {
@@ -172,6 +173,7 @@ function draw() {
         } else if (type == '戰鬥' && hex['boss'] == '偽神') {
           $('#bar起終點').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+            updateInfo(hex);
           }).bind('mouseover', () => {
             $hex.addClass('hover');
           }).bind('mouseout', () => {
@@ -180,6 +182,7 @@ function draw() {
         } else if (r_type == '削弱偽神') {
           $('#bar祭憶之城').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+            updateInfo(hex);
           }).bind('mouseover', () => {
             $hex.addClass('hover');
           }).bind('mouseout', () => {
@@ -188,6 +191,7 @@ function draw() {
         } else if (r_type == '巫女之魂') {
           $('#bar巫女').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+            updateInfo(hex);
           }).bind('mouseover', () => {
             $hex.addClass('hover');
           }).bind('mouseout', () => {
@@ -196,6 +200,7 @@ function draw() {
         } else if (r_type == '幻境據點') {
           $('#bar幻境據點').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+            updateInfo(hex);
           }).bind('mouseover', () => {
             $hex.addClass('hover');
           }).bind('mouseout', () => {
@@ -204,6 +209,7 @@ function draw() {
         } else if (r_type == '解鎖') {
           $('#bar解鎖').append($('<li>').append($('<a>').text(hex['reward'][0].substr(2) + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+            updateInfo(hex);
           }).bind('mouseover', () => {
             $hex.addClass('hover');
           }).bind('mouseout', () => {
@@ -212,6 +218,7 @@ function draw() {
         } else if (r_type == '祝福') {
           $('#bar祝福').append($('<li>').append($('<a>').text(hex['reward'][0] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
+            updateInfo(hex);
           }).bind('mouseover', () => {
             $hex.addClass('hover');
           }).bind('mouseout', () => {
