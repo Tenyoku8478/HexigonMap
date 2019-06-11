@@ -2,11 +2,10 @@ const hexigons = [];
 const hexids = [];
 
 
-function moveTo(id) {
+function moveTo(id, animate = false) {
   if (id === undefined) {
     return;
   }
-  window.scroll(0, 0);
   const y_pos = $('#' + id).offset().top;
   const x_pos = $('#' + id).offset().left;
   const w_height = $(window).height();
@@ -15,9 +14,10 @@ function moveTo(id) {
   const x = Math.max(0, x_pos - w_width / 2);
   const y = Math.max(0, y_pos - w_height / 2);
   
-  console.log(y_pos, x_pos, w_height, w_width, x, y);
-  
-  window.scroll(x, y);
+  $([document.documentElement, document.body]).animate({
+      scrollTop: y,
+      scrollLeft: x,
+  }, animate ? 500 : 0);
 }
 
 function draw() {
@@ -118,15 +118,15 @@ function draw() {
         if (type == '起始點') {
           start = $hex.attr('id');
           $('#bar起始點').append($('<li>').append($('<a>').text('起始點').attr('href', '#').bind('click', () => {
-            moveTo($hex.attr('id'));
+            moveTo($hex.attr('id'), animate=true);
           })));
         } else if (type == '戰鬥' && hex['boss'] == '偽神') {
           $('#bar偽神相關').append($('<li>').append($('<a>').text(hex['boss']).attr('href', '#').bind('click', () => {
-            moveTo($hex.attr('id'));
+            moveTo($hex.attr('id'), animate=true);
           })));
         } else if (r_type == '巫女之魂' || r_type == '削弱偽神' || r_type == '幻境據點') {
           $('#bar偽神相關').append($('<li>').append($('<a>').text(hex['boss']).attr('href', '#').bind('click', () => {
-            moveTo($hex.attr('id'));
+            moveTo($hex.attr('id'), animate=true);
           })));
         }
         
