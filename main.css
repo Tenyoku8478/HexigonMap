@@ -158,6 +158,10 @@ padding: 0; }
   --fill-color: #E38A74;
 }
 
+.hex.route {
+  --fill-color: #D94141;
+}
+
 /* end fill colors */
 
 /* begin border colors */
