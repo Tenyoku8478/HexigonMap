@@ -3336,7 +3336,7 @@
    ],
    "rewardtype": "祝福",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 288,
@@ -3755,7 +3755,7 @@
    ],
    "rewardtype": "解鎖",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 318,
