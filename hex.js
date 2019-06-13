@@ -117,7 +117,7 @@ function draw() {
             $hex.addClass('orange-border');
         }
         
-        //判斷格子為已攻破 (pass)、不能攻打 (notpass)、正在攻打 (fight)
+        //判斷格子為已攻破 (pass)、不能攻打 (notpass)、正在攻打 (fight)、有在規劃路線上 (route)
         if (pass === 'O') {
           $hex.addClass('pass');
         } else {
@@ -155,7 +155,11 @@ function draw() {
             }
           }
           if (!fight) {
-            $hex.addClass('notpass');
+            if (hex['route'] === 'O') {
+              $hex.addClass('route');
+            } else {
+              $hex.addClass('notpass');
+            }
           }
         }
         
