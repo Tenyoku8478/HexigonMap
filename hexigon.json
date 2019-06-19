@@ -3791,7 +3791,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 321,
@@ -3807,7 +3807,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 322,
@@ -4193,8 +4193,8 @@
       "防禦8"
    ],
    "rewardtype": "加成",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 347,
@@ -4214,7 +4214,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 348,
@@ -4280,7 +4280,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 352,
@@ -4296,7 +4296,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 353,
@@ -4626,8 +4626,8 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 376,
@@ -4655,8 +4655,8 @@
       "生命4%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
-   "route": "O"
+   "pass": "O",
+   "route": "X"
 },
  {
    "id": 378,
@@ -4728,7 +4728,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 382,
@@ -6417,8 +6417,8 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 496,
@@ -6436,7 +6436,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 497,
@@ -6883,8 +6883,8 @@
       "防禦8"
    ],
    "rewardtype": "加成",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 527,
