@@ -3737,7 +3737,7 @@
       "解鎖大天狗"
    ],
    "rewardtype": "解鎖",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -5195,8 +5195,8 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 412,
@@ -5644,7 +5644,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 443,
@@ -6429,7 +6429,10 @@
       "判官"
    ],
    "skill": [],
-   "property": [],
+   "property": [
+      "風",
+      "雷"
+   ],
    "reward": [
       "200積分",
       "3000金幣"
