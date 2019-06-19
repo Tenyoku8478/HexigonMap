@@ -149,7 +149,7 @@ padding: 0; }
 
 /* begin fill colors */
 .hex.pass {
-  --fill-color: #FFE8B7;
+  --fill-color: #666666;
 }
 .hex.fight {
   --fill-color: #FFCCB4;
