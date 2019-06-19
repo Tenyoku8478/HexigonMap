@@ -4609,7 +4609,7 @@
       "速度1"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -5113,7 +5113,7 @@
    "reward": [
       "防禦8"
    ],
-   "rewardtype": "祝福",
+   "rewardtype": "加成",
    "pass": "O",
    "route": "X"
 },
@@ -7357,7 +7357,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {

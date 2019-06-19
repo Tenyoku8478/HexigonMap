@@ -166,6 +166,7 @@ function draw() {
         //sidebar
         if (type == '起始點') {
           start = $hex.attr('id');
+          $hex.addClass('important');
           $('#bar起終點').append($('<li>').append($('<a>').text('起始點' + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
             updateInfo(hex);
@@ -175,6 +176,7 @@ function draw() {
             $hex.removeClass('hover');
           })));
         } else if (type == '戰鬥' && hex['boss'] == '偽神') {
+          $hex.addClass('important');
           $('#bar起終點').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
             updateInfo(hex);
@@ -184,6 +186,7 @@ function draw() {
             $hex.removeClass('hover');
           })));
         } else if (r_type == '削弱偽神') {
+          $hex.addClass('important');
           $('#bar祭憶之城').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
             updateInfo(hex);
@@ -193,6 +196,7 @@ function draw() {
             $hex.removeClass('hover');
           })));
         } else if (r_type == '巫女之魂') {
+          $hex.addClass('important');
           $('#bar巫女').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
             updateInfo(hex);
@@ -202,6 +206,7 @@ function draw() {
             $hex.removeClass('hover');
           })));
         } else if (r_type == '幻境據點') {
+          $hex.addClass('important');
           $('#bar幻境據點').append($('<li>').append($('<a>').text(hex['boss'] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
             updateInfo(hex);
@@ -211,6 +216,7 @@ function draw() {
             $hex.removeClass('hover');
           })));
         } else if (r_type == '解鎖') {
+          $hex.addClass('important');
           $('#bar解鎖').append($('<li>').append($('<a>').text(hex['reward'][0].substr(2) + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
             updateInfo(hex);
@@ -220,6 +226,7 @@ function draw() {
             $hex.removeClass('hover');
           })));
         } else if (r_type == '祝福') {
+          $hex.addClass('important');
           $('#bar祝福').append($('<li>').append($('<a>').text(hex['reward'][0] + ' ' + (id + 1)).attr('href', '#').bind('click', () => {
             moveTo($hex.attr('id'), animate=true);
             updateInfo(hex);

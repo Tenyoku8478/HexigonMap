@@ -143,6 +143,10 @@ padding: 0; }
   border-right: 52px solid transparent;
 }
 
+.hex.important {
+  filter: var(--border-filter) brightness(120%);
+}
+
 .hex:hover, .hex.hover {
   filter: var(--border-filter) brightness(140%);
 }
@@ -161,6 +165,7 @@ padding: 0; }
 .hex.route {
   --fill-color: #D94141;
 }
+
 
 /* end fill colors */
 
