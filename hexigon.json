@@ -1440,23 +1440,6 @@
    "route": "X"
 },
  {
-   "id": 136,
-   "type": "委派",
-   "suggest": [
-      "未知"
-   ],
-   "skill": [],
-   "property": [
-      "未知"
-   ],
-   "reward": [
-      "未知"
-   ],
-   "rewardtype": "未知",
-   "pass": "X",
-   "route": "X"
-},
- {
    "id": 137,
    "type": "淨化",
    "suggest": [],
@@ -4217,16 +4200,19 @@
    "id": 347,
    "type": "委派",
    "suggest": [
-      "未知"
+      "薰",
+      "鬼使黑",
+      "賣藥郎"
    ],
    "skill": [],
    "property": [
-      "未知"
+      "火",
+      "風"
    ],
    "reward": [
-      "未知"
+      "防禦8"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "加成",
    "pass": "X",
    "route": "O"
 },
@@ -4645,41 +4631,50 @@
 },
  {
    "id": 376,
-   "type": "未知",
+   "type": "淨化",
    "suggest": [],
    "skill": [],
    "property": [],
    "reward": [
-      "未知"
+      "100積分"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "X"
 },
  {
    "id": 377,
    "type": "戰鬥",
-   "boss": "未知",
+   "boss": "弈",
    "suggest": [],
-   "skill": [],
+   "skill": [
+      "固執"
+   ],
    "property": [],
    "reward": [
-      "未知"
+      "生命4%"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "加成",
    "pass": "X",
    "route": "O"
 },
  {
    "id": 378,
-   "type": "未知",
-   "suggest": [],
-   "skill": [],
-   "property": [],
-   "reward": [
-      "未知"
+   "type": "委派",
+   "suggest": [
+      "巫蠱師",
+      "小袖之手",
+      "首無"
    ],
-   "rewardtype": "未知",
+   "skill": [],
+   "property": [
+      "火",
+      "雷"
+   ],
+   "reward": [
+      "攻擊25"
+   ],
+   "rewardtype": "加成",
    "pass": "X",
    "route": "X"
 },
@@ -5088,10 +5083,17 @@
 },
  {
    "id": 405,
-   "type": "未知",
-   "suggest": [],
+   "type": "委派",
+   "suggest": [
+      "童男",
+      "金魚姬",
+      "青坊主"
+   ],
    "skill": [],
-   "property": [],
+   "property": [
+      "風",
+      "水"
+   ],
    "reward": [
       "解鎖稻荷神御饌津"
    ],
@@ -5102,33 +5104,38 @@
  {
    "id": 406,
    "type": "戰鬥",
-   "boss": "未知",
+   "boss": "河童",
    "suggest": [],
-   "skill": [],
+   "skill": [
+      "怯懦"
+   ],
    "property": [],
    "reward": [
-      "未知"
+      "防禦8"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "祝福",
    "pass": "X",
    "route": "X"
 },
  {
    "id": 407,
-   "type": "未知",
+   "type": "戰鬥",
+   "boss": "鐵鼠",
    "suggest": [],
-   "skill": [],
+   "skill": [
+      "技能"
+   ],
    "property": [],
    "reward": [
-      "未知"
+      "100積分"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "O"
 },
  {
    "id": 408,
-   "type": "未知",
+   "type": "捐獻",
    "suggest": [],
    "skill": [],
    "property": [],
@@ -5141,14 +5148,17 @@
 },
  {
    "id": 409,
-   "type": "未知",
+   "type": "戰鬥",
+   "boss": "跳跳弟弟",
    "suggest": [],
-   "skill": [],
+   "skill": [
+      "怯懦"
+   ],
    "property": [],
    "reward": [
-      "未知"
+      "100積分"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "X"
 },
@@ -5156,16 +5166,19 @@
    "id": 410,
    "type": "委派",
    "suggest": [
-      "未知"
+      "跳跳哥哥",
+      "賣藥郎",
+      "一反木綿"
    ],
    "skill": [],
    "property": [
-      "未知"
+      "火",
+      "雷"
    ],
    "reward": [
-      "未知"
+      "攻擊25"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "加成",
    "pass": "X",
    "route": "X"
 },
@@ -5514,28 +5527,33 @@
  {
    "id": 434,
    "type": "戰鬥",
-   "boss": "未知",
+   "boss": "淨化",
    "suggest": [],
    "skill": [],
    "property": [],
    "reward": [
-      "未知"
+      "500積分",
+      "20紫鱗",
+      "1白蛋",
+      "5000金幣"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "X"
 },
  {
    "id": 435,
    "type": "戰鬥",
-   "boss": "未知",
+   "boss": "姑獲鳥",
    "suggest": [],
-   "skill": [],
+   "skill": [
+      "固執"
+   ],
    "property": [],
    "reward": [
-      "未知"
+      "生命90"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "加成",
    "pass": "X",
    "route": "O"
 },
@@ -5552,46 +5570,50 @@
 },
  {
    "id": 437,
-   "type": "未知",
+   "type": "戰鬥",
+   "boss": "覺",
    "suggest": [],
-   "skill": [],
+   "skill": [
+      "技能"
+   ],
    "property": [],
    "reward": [
-      "未知"
+      "暴擊2%"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "加成",
    "pass": "X",
    "route": "O"
 },
  {
    "id": 438,
    "type": "戰鬥",
-   "boss": "未知",
+   "boss": "弈",
    "suggest": [],
    "skill": [
-      "未知"
+      "固執"
    ],
    "property": [],
    "reward": [
-      "未知"
+      "效果抵抗2%"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "加成",
    "pass": "X",
    "route": "O"
 },
  {
    "id": 439,
    "type": "戰鬥",
-   "boss": "未知",
+   "boss": "吸血姬",
    "suggest": [],
    "skill": [
-      "未知"
+      "冷漠"
    ],
    "property": [],
    "reward": [
-      "未知"
+      "200積分",
+      "3000金幣"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "O"
 },
@@ -5932,82 +5954,108 @@
 },
  {
    "id": 464,
-   "type": "未知",
-   "suggest": [],
-   "skill": [],
-   "property": [],
-   "reward": [
-      "未知"
+   "type": "委派",
+   "suggest": [
+      "餓鬼",
+      "三尾狐",
+      "蝴蝶精"
    ],
-   "rewardtype": "未知",
+   "skill": [],
+   "property": [
+      "火",
+      "風"
+   ],
+   "reward": [
+      "100積分"
+   ],
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "X"
 },
  {
    "id": 465,
-   "type": "未知",
+   "type": "戰鬥",
+   "boss": "跳跳哥哥",
    "suggest": [],
-   "skill": [],
+   "skill": [
+      "孤單"
+   ],
    "property": [],
    "reward": [
-      "未知"
+      "100積分"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "X"
 },
  {
    "id": 466,
-   "type": "未知",
-   "suggest": [],
+   "type": "委派",
+   "suggest": [
+      "夜叉",
+      "武士之靈",
+      "萬年竹"
+   ],
    "skill": [],
-   "property": [],
+   "property": [
+      "水",
+      "雷"
+   ],
    "reward": [
-      "未知"
+      "效果抵抗2%"
    ],
-   "rewardtype": "未知",
-   "pass": "X",
-   "route": "O"
-},
- {
-   "id": 467,
-   "type": "戰鬥",
-   "boss": "未知",
-   "suggest": [],
-   "skill": [
-      "未知"
-   ],
-   "property": [],
-   "reward": [
-      "未知"
-   ],
-   "rewardtype": "未知",
+   "rewardtype": "加成",
    "pass": "X",
    "route": "X"
 },
  {
+   "id": 467,
+   "type": "戰鬥",
+   "boss": "雨女",
+   "suggest": [],
+   "skill": [
+      "期待"
+   ],
+   "property": [],
+   "reward": [
+      "速度1"
+   ],
+   "rewardtype": "加成",
+   "pass": "O",
+   "route": "O"
+},
+ {
    "id": 468,
-   "type": "未知",
+   "type": "淨化",
    "suggest": [],
    "skill": [],
    "property": [],
    "reward": [
-      "未知"
+      "200積分",
+      "3000金幣"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "X"
 },
  {
    "id": 469,
-   "type": "未知",
-   "suggest": [],
-   "skill": [],
-   "property": [],
-   "reward": [
-      "未知"
+   "type": "委派",
+   "suggest": [
+      "雪女",
+      "薰",
+      "白狼"
    ],
-   "rewardtype": "未知",
+   "skill": [],
+   "property": [
+      "火",
+      "風"
+   ],
+   "reward": [
+      "200積分",
+      "3000金幣"
+   ],
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "X"
 },
@@ -6374,29 +6422,34 @@
 },
  {
    "id": 496,
-   "type": "未知",
-   "suggest": [],
+   "type": "委派",
+   "suggest": [
+      "三尾狐",
+      "蟲師",
+      "判官"
+   ],
    "skill": [],
    "property": [],
    "reward": [
-      "未知"
+      "200積分",
+      "3000金幣"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 497,
-   "type": "未知",
+   "type": "捐獻",
    "suggest": [],
    "skill": [],
    "property": [],
    "reward": [
-      "未知"
+      "100積分"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 498,
@@ -6835,7 +6888,7 @@
 },
  {
    "id": 527,
-   "type": "未知",
+   "type": "淨化",
    "suggest": [],
    "skill": [],
    "property": [],
@@ -6848,14 +6901,21 @@
 },
  {
    "id": 528,
-   "type": "未知",
-   "suggest": [],
-   "skill": [],
-   "property": [],
-   "reward": [
-      "未知"
+   "type": "委派",
+   "suggest": [
+      "武士之靈",
+      "妖琴師",
+      "餓鬼"
    ],
-   "rewardtype": "未知",
+   "skill": [],
+   "property": [
+      "風",
+      "水"
+   ],
+   "reward": [
+      "生命90"
+   ],
+   "rewardtype": "加成",
    "pass": "X",
    "route": "X"
 },
@@ -7284,14 +7344,16 @@
  {
    "id": 556,
    "type": "戰鬥",
-   "boss": "未知",
+   "boss": "跳跳哥哥",
    "suggest": [],
-   "skill": [],
+   "skill": [
+      "孤單"
+   ],
    "property": [],
    "reward": [
-      "未知"
+      "100積分"
    ],
-   "rewardtype": "未知",
+   "rewardtype": "戰利品",
    "pass": "X",
    "route": "O"
 },
@@ -7715,14 +7777,21 @@
 },
  {
    "id": 586,
-   "type": "未知",
-   "suggest": [],
-   "skill": [],
-   "property": [],
-   "reward": [
-      "未知"
+   "type": "委派",
+   "suggest": [
+      "九命貓",
+      "二口女",
+      "於菊蟲"
    ],
-   "rewardtype": "未知",
+   "skill": [],
+   "property": [
+      "火",
+      "風"
+   ],
+   "reward": [
+      "攻擊25"
+   ],
+   "rewardtype": "加成",
    "pass": "X",
    "route": "O"
 },
@@ -9782,7 +9851,7 @@
    "skill": [],
    "property": [],
    "reward": [
-      "抵抗2%(?)"
+      "抵抗2%"
    ],
    "rewardtype": "加成",
    "pass": "X",
