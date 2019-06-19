@@ -3322,6 +3322,26 @@
    "route": "O"
 },
  {
+   "id": 287,
+   "type": "委派",
+   "suggest": [
+      "以津真天",
+      "判官",
+      "三尾狐"
+   ],
+   "skill": [],
+   "property": [
+      "風",
+      "雷"
+   ],
+   "reward": [
+      "防禦8"
+   ],
+   "rewardtype": "加成",
+   "pass": "X",
+   "route": "X"
+},
+ {
    "id": 288,
    "type": "戰鬥",
    "boss": "鬼使黑",
@@ -3739,6 +3759,19 @@
    "rewardtype": "解鎖",
    "pass": "O",
    "route": "O"
+},
+ {
+   "id": 317,
+   "type": "淨化",
+   "suggest": [],
+   "skill": [],
+   "property": [],
+   "reward": [
+      "100積分"
+   ],
+   "rewardtype": "戰利品",
+   "pass": "X",
+   "route": "X"
 },
  {
    "id": 318,
