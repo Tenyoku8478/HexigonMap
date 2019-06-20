@@ -6932,7 +6932,7 @@
       "解鎖丑時之女"
    ],
    "rewardtype": "解鎖",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -7422,7 +7422,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
