@@ -2442,7 +2442,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -5131,7 +5131,7 @@
       "解鎖稻荷神御饌津"
    ],
    "rewardtype": "解鎖",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -5260,7 +5260,7 @@
       "抵抗2%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
