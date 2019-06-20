@@ -420,7 +420,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 45,
@@ -436,7 +436,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 46,
@@ -715,7 +715,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 74,
@@ -735,7 +735,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 75,
@@ -748,7 +748,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 76,
@@ -761,7 +761,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 77,
@@ -777,7 +777,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 78,
@@ -1059,7 +1059,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 103,
@@ -1073,7 +1073,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 104,
@@ -1108,7 +1108,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 106,
@@ -1124,7 +1124,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 107,
@@ -1161,7 +1161,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 109,
@@ -1399,7 +1399,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 133,
@@ -1416,7 +1416,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 134,
@@ -1450,7 +1450,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 138,
@@ -1707,7 +1707,7 @@
    ],
    "rewardtype": "幻境據點",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 162,
@@ -1779,7 +1779,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 170,
@@ -1991,7 +1991,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 192,
@@ -2008,7 +2008,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 193,
@@ -2027,7 +2027,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 194,
@@ -2398,7 +2398,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 225,
@@ -2835,7 +2835,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 255,
@@ -2851,7 +2851,7 @@
    ],
    "rewardtype": "幻境據點",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 256,
