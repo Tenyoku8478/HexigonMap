@@ -2866,7 +2866,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -7020,7 +7020,7 @@
       "幻境據點"
    ],
    "rewardtype": "幻境據點",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -8300,7 +8300,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
