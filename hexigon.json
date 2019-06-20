@@ -3400,7 +3400,7 @@
       "解鎖追月神"
    ],
    "rewardtype": "解鎖",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -4813,7 +4813,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 385,
@@ -5261,7 +5261,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 415,
@@ -5274,7 +5274,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 416,
@@ -5696,7 +5696,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 444,
@@ -5732,7 +5732,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 446,
@@ -6160,7 +6160,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 475,
@@ -6176,7 +6176,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 476,
