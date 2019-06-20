@@ -4626,7 +4626,7 @@
       "1藍蛋"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -4792,7 +4792,7 @@
       "攻擊5%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
