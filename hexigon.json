@@ -2834,7 +2834,7 @@
       "暴擊2%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -2850,7 +2850,7 @@
       "幻境據點"
    ],
    "rewardtype": "幻境據點",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -8365,7 +8365,7 @@
       "速度1"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
