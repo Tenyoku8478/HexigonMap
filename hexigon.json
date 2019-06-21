@@ -3823,7 +3823,7 @@
       "攻擊5%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -5559,8 +5559,7 @@
 },
  {
    "id": 434,
-   "type": "戰鬥",
-   "boss": "淨化",
+   "type": "淨化",
    "suggest": [],
    "skill": [],
    "property": [],
@@ -6516,7 +6515,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -6969,7 +6968,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
