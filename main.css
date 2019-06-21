@@ -166,6 +166,10 @@ padding: 0; }
   --fill-color: #D94141;
 }
 
+.hex.start {
+  --fill-color: #FFF4F4;
+}
+
 
 /* end fill colors */
 

@@ -67,6 +67,7 @@ function draw() {
     let row = 0;
     let $row = null;
     let start = undefined;
+    let pass_cnt = parseInt(0);
     
     let prev = 0;
     Object.keys(hexigons).forEach(function(key) {
@@ -119,7 +120,12 @@ function draw() {
         
         //判斷格子為已攻破 (pass)、不能攻打 (notpass)、正在攻打 (fight)、有在規劃路線上 (route)
         if (pass === 'O') {
-          $hex.addClass('pass');
+          // 起始點特判
+          if (type == '起始點') 
+            $hex.addClass('start');
+          else
+            $hex.addClass('pass');
+          pass_cnt += 1;
         } else {
           const around = [];
           if (Math.floor(id / 30) % 2 == 0) {
@@ -249,6 +255,7 @@ function draw() {
     });
     
     //移動至起始點
+    $('#passcount').text(pass_cnt);
     moveTo(start);
 }
 
