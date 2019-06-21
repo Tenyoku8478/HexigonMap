@@ -2091,7 +2091,7 @@
       "解鎖茨木童子"
    ],
    "rewardtype": "解鎖",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -3417,7 +3417,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -5695,7 +5695,7 @@
       "5000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -6159,7 +6159,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -6175,7 +6175,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -6606,7 +6606,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 506,
@@ -7053,7 +7053,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 536,
@@ -7505,7 +7505,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 565,
@@ -7963,7 +7963,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 596,
@@ -8399,7 +8399,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 625,
@@ -9067,7 +9067,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 681,
@@ -9080,7 +9080,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 683,
@@ -9097,7 +9097,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 684,
@@ -9419,7 +9419,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 713,
@@ -9432,7 +9432,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 714,
