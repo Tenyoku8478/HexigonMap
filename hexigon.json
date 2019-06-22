@@ -2539,7 +2539,7 @@
       "幻境據點"
    ],
    "rewardtype": "幻境據點",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -3355,7 +3355,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
