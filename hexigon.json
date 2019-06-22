@@ -1706,7 +1706,7 @@
       "幻境據點"
    ],
    "rewardtype": "幻境據點",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -1990,7 +1990,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -2007,7 +2007,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -2026,7 +2026,7 @@
       "5000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -2345,7 +2345,7 @@
       "一目連的祝福"
    ],
    "rewardtype": "祝福",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -7051,7 +7051,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -7503,7 +7503,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -7946,7 +7946,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 595,
@@ -7962,7 +7962,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 596,
@@ -8382,7 +8382,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 624,
@@ -8398,7 +8398,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 625,
