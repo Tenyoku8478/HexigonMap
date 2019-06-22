@@ -8382,7 +8382,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 624,
@@ -8398,7 +8398,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 625,
