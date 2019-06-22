@@ -2918,7 +2918,7 @@
       "速度1"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -4610,7 +4610,7 @@
       "防禦8"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -6568,7 +6568,7 @@
       "生命90"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -6987,7 +6987,7 @@
       "5000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -8283,7 +8283,7 @@
       "解鎖蒼風一目連"
    ],
    "rewardtype": "解鎖",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
