@@ -4558,7 +4558,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 370,
@@ -4574,7 +4574,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 371,
@@ -5095,7 +5095,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 402,
@@ -5112,7 +5112,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 405,
@@ -5518,7 +5518,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 430,
@@ -5535,7 +5535,7 @@
    ],
    "rewardtype": "戰利品",
    "pass": "X",
-   "route": "X"
+   "route": "O"
 },
  {
    "id": 431,
@@ -8397,7 +8397,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
