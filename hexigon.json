@@ -6483,7 +6483,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -8744,7 +8744,7 @@
       "巫女之魂"
    ],
    "rewardtype": "巫女之魂",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
