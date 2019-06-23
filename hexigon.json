@@ -1690,7 +1690,7 @@
       "防禦8"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -1778,8 +1778,8 @@
       "5000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 170,
@@ -2107,7 +2107,7 @@
       "生命90"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -5094,7 +5094,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -5111,7 +5111,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -6620,7 +6620,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -6886,7 +6886,7 @@
       "抵抗2%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
