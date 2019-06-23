@@ -3287,7 +3287,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 285,
@@ -3706,7 +3706,7 @@
    ],
    "rewardtype": "加成",
    "pass": "X",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 314,
