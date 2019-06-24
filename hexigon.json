@@ -646,7 +646,7 @@
       "削弱偽神"
    ],
    "rewardtype": "削弱偽神",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -989,7 +989,7 @@
       "削弱偽神"
    ],
    "rewardtype": "削弱偽神",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -1005,7 +1005,7 @@
       "生命90"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -1739,8 +1739,8 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 164,
@@ -1791,8 +1791,8 @@
       "生命4%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 171,
@@ -3003,7 +3003,7 @@
       "生命4%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -4312,7 +4312,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -4594,7 +4594,7 @@
       "心神值"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -6067,7 +6067,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -6470,7 +6470,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -7458,7 +7458,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -8381,7 +8381,7 @@
       "生命90"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -8761,7 +8761,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -9430,7 +9430,7 @@
       "攻擊25"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
