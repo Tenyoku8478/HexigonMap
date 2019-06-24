@@ -2507,7 +2507,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -2902,7 +2902,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -3368,7 +3368,7 @@
       "抵抗2%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -4557,8 +4557,8 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 370,
@@ -6037,7 +6037,7 @@
       "效果抵抗2%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -7675,7 +7675,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -7691,7 +7691,7 @@
       "抵抗2%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -7961,7 +7961,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -8086,7 +8086,7 @@
       "巫女之魂"
    ],
    "rewardtype": "巫女之魂",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -8714,7 +8714,7 @@
       "抵抗2%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
