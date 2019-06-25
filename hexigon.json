@@ -191,7 +191,7 @@
       "防禦8"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -305,7 +305,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -487,7 +487,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -520,7 +520,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -534,7 +534,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -632,7 +632,7 @@
       "削弱偽神"
    ],
    "rewardtype": "削弱偽神",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -666,7 +666,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -956,7 +956,7 @@
       "削弱偽神"
    ],
    "rewardtype": "削弱偽神",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -975,7 +975,7 @@
       "200勾玉"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -1058,7 +1058,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -1336,7 +1336,7 @@
       "削弱偽神"
    ],
    "rewardtype": "削弱偽神",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -1350,7 +1350,7 @@
       "削弱偽神"
    ],
    "rewardtype": "削弱偽神",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -1792,7 +1792,7 @@
    ],
    "rewardtype": "加成",
    "pass": "O",
-   "route": "O"
+   "route": "X"
 },
  {
    "id": 171,
@@ -1823,7 +1823,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -2176,7 +2176,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -2215,8 +2215,8 @@
       "1藍蛋"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 208,
@@ -2381,7 +2381,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -2426,7 +2426,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -2491,7 +2491,7 @@
       "防禦8"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -2585,8 +2585,8 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 238,
@@ -2598,7 +2598,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -2772,8 +2772,8 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 251,
@@ -3020,8 +3020,8 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 266,
@@ -3036,8 +3036,8 @@
       "防禦8"
    ],
    "rewardtype": "加成",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 267,
@@ -3286,8 +3286,8 @@
       "抵抗2%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
-   "route": "X"
+   "pass": "O",
+   "route": "O"
 },
  {
    "id": 285,
@@ -3725,7 +3725,7 @@
       "防禦8"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -4708,7 +4708,7 @@
       "攻擊25"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -5040,7 +5040,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -5730,7 +5730,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -5746,7 +5746,7 @@
       "防禦8"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -5981,7 +5981,7 @@
       "傷害5%"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -6001,7 +6001,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -6088,7 +6088,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -6399,7 +6399,7 @@
       "幻境據點"
    ],
    "rewardtype": "幻境據點",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -7204,7 +7204,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -7471,7 +7471,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -7975,7 +7975,7 @@
       "3000金幣"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -8122,7 +8122,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -8312,7 +8312,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -9045,7 +9045,7 @@
       "輝夜姬的祝福"
    ],
    "rewardtype": "祝福",
-   "pass": "X",
+   "pass": "O",
    "route": "O"
 },
  {
@@ -9065,7 +9065,7 @@
       "100積分"
    ],
    "rewardtype": "戰利品",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
@@ -9446,7 +9446,7 @@
       "攻擊25"
    ],
    "rewardtype": "加成",
-   "pass": "X",
+   "pass": "O",
    "route": "X"
 },
  {
